@@ -1,0 +1,22 @@
+package hilo;
+
+public class Hilo extends Thread {
+	
+	public void run() {
+		System.out.printf("Dentro del hilo: %s, Prioridad: %d, ID: %d\n", 
+				this.getName(), this.getPriority(),this.getId());
+		
+		try {
+			sleep(1000);
+		}
+		catch (InterruptedException e){
+		
+		}
+		if (interrupted()) {
+			System.out.println("El hilo fue interrumpido");
+		}
+		System.out.printf("Se sale del Hilo: %s\n", this.getName());
+		
+		
+	}
+}
