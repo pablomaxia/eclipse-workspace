@@ -1,5 +1,0 @@
-package hilo;
-
-public class Hilo extends Thread implements Runnable {
-
-}

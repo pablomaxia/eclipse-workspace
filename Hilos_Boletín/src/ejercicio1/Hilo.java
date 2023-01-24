@@ -1,6 +1,6 @@
 package ejercicio1;
 
-public class Hilo extends Thread {
+public class Hilo  extends Thread {
 
 	public void run() {
 		System.out.printf("Dentro del hilo: %s, Prioridad: %d, ID: %d\n", this.getName(), this.getPriority(),

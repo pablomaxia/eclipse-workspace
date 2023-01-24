@@ -31,9 +31,9 @@
 	<section name="DialogBounds_GenerateConstructorUsingFieldsSelectionDialog">
 		<item key="DIALOG_X_ORIGIN" value="333"/>
 		<item key="DIALOG_Y_ORIGIN" value="0"/>
-		<item key="DIALOG_WIDTH" value="635"/>
-		<item key="DIALOG_HEIGHT" value="721"/>
-		<item key="DIALOG_FONT_NAME" value="1|Ubuntu|11.0|0|GTK|1|"/>
+		<item key="DIALOG_WIDTH" value="579"/>
+		<item key="DIALOG_HEIGHT" value="626"/>
+		<item key="DIALOG_FONT_NAME" value="1|Sans|9.0|0|GTK|1|"/>
 	</section>
 	<section name="SourceActionDialog.methods">
 		<item key="VisibilityModifier" value="1"/>
@@ -102,5 +102,8 @@
 		<item key="DIALOG_WIDTH" value="374"/>
 		<item key="DIALOG_HEIGHT" value="531"/>
 		<item key="DIALOG_FONT_NAME" value="1|Sans|9.0|0|GTK|1|"/>
+	</section>
+	<section name="BuildPathsPropertyPage">
+		<item key="pageIndex" value="2"/>
 	</section>
 </section>
