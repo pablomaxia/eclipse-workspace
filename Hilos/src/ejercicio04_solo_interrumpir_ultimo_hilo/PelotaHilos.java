@@ -1,4 +1,4 @@
-package ejercicio03_interrumpir_hilo;
+package ejercicio04_solo_interrumpir_ultimo_hilo;
 
 import java.awt.Component;
 
@@ -17,7 +17,8 @@ public class PelotaHilos implements Runnable {
 			try {
 				Thread.sleep(4);
 			} catch (InterruptedException e) {
-				e.printStackTrace();
+				//e.printStackTrace();
+				Thread.currentThread().interrupt();
 			}
 		}
 		System.out.println("Estado del hilo al comenzar: " + Thread.currentThread().isInterrupted());

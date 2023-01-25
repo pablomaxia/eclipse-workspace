@@ -1,4 +1,4 @@
-package ejercicio03_interrumpir_hilo;
+package ejercicio04_solo_interrumpir_ultimo_hilo;
 
 import java.awt.BorderLayout;
 import java.awt.Container;
