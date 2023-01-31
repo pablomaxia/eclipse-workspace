@@ -3,9 +3,13 @@
     <fullyQualifiedTypeName name="modelo.Persona"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="ejercicio2.HiloDemonio"/>
-    <fullyQualifiedTypeName name="java.io.FileWriter"/>
-    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
     <fullyQualifiedTypeName name="java.awt.Component"/>
     <fullyQualifiedTypeName name="ejercicio01_varios_hilos_simultaneos.PelotaHilos"/>
     <fullyQualifiedTypeName name="ejercicio01_varios_hilos_simultaneos.LaminaPelota"/>
+    <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+    <fullyQualifiedTypeName name="java.io.Writer"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="ejercicio8_.HiloNumeros"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="ejercicio8_.HiloBusqueda"/>
 </qualifiedTypeNameHistroy>
