@@ -12,4 +12,7 @@
     <fullyQualifiedTypeName name="ejercicio8_.HiloNumeros"/>
     <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="ejercicio8_.HiloBusqueda"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.Lock"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.ReentrantLock"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.locks.Condition"/>
 </qualifiedTypeNameHistroy>
