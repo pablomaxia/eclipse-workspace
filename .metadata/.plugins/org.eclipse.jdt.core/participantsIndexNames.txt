@@ -1,17 +1,9 @@
 INDEX VERSION 1.131
-/home/pablomaxia/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1785006826.index
-/ServicioWeb/src/main/java
-/home/pablomaxia/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1153841168.index
-/ServicioWeB/src/main/java
-/home/pablomaxia/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2745782515.index
-/ejemplo/src/main/resources
-/home/pablomaxia/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3599522880.index
-/servicioWeb/src/main/resources
-/home/pablomaxia/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/19958842.index
-/IMCWeb/src/main/java
-/home/pablomaxia/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/239651059.index
-/ServicioIMC/src/main/java
-/home/pablomaxia/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1133171321.index
-/ApiRestJaxRS/src/main/java
-/home/pablomaxia/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4257985911.index
-/imc/src/main/resources
+F:\DAM\2DAM\PSP\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\158513338.index
+\IMCWeb\src\main\java
+F:\DAM\2DAM\PSP\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3101788373.index
+\ApiRestJaxRS\src\main\java
+F:\DAM\2DAM\PSP\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1356768932.index
+\ServicioWeb\src\main\java
+F:\DAM\2DAM\PSP\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\888366269.index
+\ServicioIMC\src\main\java
