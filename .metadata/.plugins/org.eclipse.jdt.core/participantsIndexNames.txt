@@ -1,9 +1,0 @@
-INDEX VERSION 1.131
-F:\DAM\2DAM\PSP\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\158513338.index
-\IMCWeb\src\main\java
-F:\DAM\2DAM\PSP\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3101788373.index
-\ApiRestJaxRS\src\main\java
-F:\DAM\2DAM\PSP\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1356768932.index
-\ServicioWeb\src\main\java
-F:\DAM\2DAM\PSP\eclipse-workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\888366269.index
-\ServicioIMC\src\main\java

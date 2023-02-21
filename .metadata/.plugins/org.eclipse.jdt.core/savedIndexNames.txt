@@ -1,6 +1,0 @@
-INDEX VERSION 1.131+F:\DAM\2DAM\PSP\eclipse-workspace\.metadata\.plugins\org.eclipse.jdt.core
-1865797976.index
-2391254916.index
-2314344874.index
-1925357413.index
-1198381986.index
