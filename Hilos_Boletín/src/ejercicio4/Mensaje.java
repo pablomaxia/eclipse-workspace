@@ -4,7 +4,7 @@ public class Mensaje {
 	private String texto;
 
 	public Mensaje(String texto) {
-		this.setTexto(texto);
+		this.texto = texto;
 	}
 
 
