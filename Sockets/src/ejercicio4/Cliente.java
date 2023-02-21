@@ -47,16 +47,18 @@ public class Cliente {
 			// Lo envio con send
 			System.out.println("Envio el datagrama");
 			socketUDP.send(pregunta);
-
+			
+			// Reiniciar el buffer
+			buffer = new byte[1024];
 			// Preparo la respuesta
 			DatagramPacket peticion = new DatagramPacket(buffer, buffer.length);
 
 			// Recibo la respuesta
 			socketUDP.receive(peticion);
 			System.out.println("Recibo la peticion");
+			buffer = peticion.getData();
 
 			// Cojo los datos y lo muestro
-			buffer = peticion.getData();
 			String mensaje = new String(buffer);
 			System.out.println(mensaje);
 
