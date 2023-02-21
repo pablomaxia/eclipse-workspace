@@ -30,12 +30,6 @@ public class HiloTarea extends Thread {
 	public void run() {
 		for (int i = 0; i <= 10; i++) {
 			enviarMensaje(this.mensaje, i);
-			/*
-			 * synchronized (this.mensaje) { System.out.println(getName() +
-			 * " enterado de mensaje de: " + this.mensaje.getTexto());
-			 * this.mensaje.setTexto(this.getName() + ": MSG" + i); } try { sleep(3000); }
-			 * catch (InterruptedException e) { e.printStackTrace(); }
-			 */
 		}
 
 	}

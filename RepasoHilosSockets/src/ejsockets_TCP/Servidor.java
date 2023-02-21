@@ -1,21 +1,14 @@
-package ejercicio3;
+package ejsockets_TCP;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.IOException;
-import java.net.DatagramPacket;
-import java.net.DatagramSocket;
-import java.net.InetAddress;
 import java.net.ServerSocket;
 import java.net.Socket;
-import java.net.SocketException;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import ejercicio1_sockets_TCP.Servidor2;
-
 public class Servidor {
-
 	public static void main(String[] args) {
 
 		ServerSocket servidor = null;
@@ -23,7 +16,7 @@ public class Servidor {
 		// se abre un puente de comunicación entre el servidor y el cliente
 		Socket socket = null;
 
-		final int PUERTO = 5000;
+		final int PUERTO = 5001;
 
 		// los mensajes viajan a través de estos objetos.
 		// Las clases DataInputStream y DataOutputStream sirven para leer/escribir datos
@@ -42,11 +35,10 @@ public class Servidor {
 				in = new DataInputStream(socket.getInputStream());
 				out = new DataOutputStream(socket.getOutputStream());
 
-				int num = in.readInt();
-				int cuadrado = num*num;
-				System.out.println(cuadrado);
+				String mensaje = in.readUTF();
+				System.out.println(mensaje);
 
-				out.writeInt(cuadrado);
+				out.writeUTF("ok ");
 
 				in.close();
 				out.close();
@@ -56,7 +48,7 @@ public class Servidor {
 			}
 
 			catch (IOException e1) {
-				Logger.getLogger(Servidor2.class.getName()).log(Level.SEVERE, null, e1);
+				Logger.getLogger(Servidor.class.getName()).log(Level.SEVERE, null, e1);
 			}
 		}
 
